@@ -5,24 +5,22 @@ kaca: dibaca dari depan kaca dibaca dari belakang acak = salah
 output yang diharapkan:
 input kodok output benar
 input kaca output salah */
-
-let string = "tes"
+let string = "malam"
 let stringLength = string.length
 let stringToArray = string.split('')
 
-let res = []
-let tes = res.join("")
 
+let res = []
 
 for (let i = stringLength; i > 0; i--) {
     res.push(stringToArray[i -1])
-
-    if (tes == string) {
-        console.log(true);
-    }   else{
-        console.log(false);
-    } 
 }
 
-
+let out = res.join('')
 console.log(" hasil akhir => " + res.join(''));
+
+if (out == string) {
+    console.log(true);
+}else{
+    console.log(false);
+}
