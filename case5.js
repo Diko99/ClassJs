@@ -18,11 +18,11 @@ for (let i = 0; i < dataLength; i++) {
 }
 console.log("remove array duplicate => " + res.join(" | "))
 
-function sortNumber(c, b) {
-  return c - b;
-  console.log(c, b)
+function sortNumber(a, b) {
+  return a - b;
 }
-let out = res.sort();
 
-console.log(out);
+var numArray = [res.sort(sortNumber)];
+res.push(numArray)
 
+console.log(res);
