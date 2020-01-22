@@ -30,27 +30,4 @@ for (let i = 0; i < bookers.length; i++) {
     }
 }
 
-console.log(data) 
-
-
-
-
-// while (i < bookers.length) {
-//  let a = 0;
-//     while (a < data.length) {
-//         let w = 0;
-//         console.log(data[a])
-//           while (w < data[a].length) {
-//             if (bookers[i] == data[a][w]) {
-//                 data[a].splice(w, 1, 0)
-                
-//                    }   
-//               w++
-//             }
-//         a++
-//     }
-//     i++
-// }
-// let res = []
-
-// console.log(data)
+console.log(data) )
