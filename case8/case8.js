@@ -13,9 +13,9 @@ let tokenBaru       = document.getElementById('tokenBaru')
 
 
 pencet = () => {
-    if(mulaiMain < 5) {   //  jika jm lebih kecil dari 3 maka bisa main
+    if(mulaiMain < 5) {   //  validasi permainan dimulai dari 5
         a = 4  - mulaiMain;         //  untuk mengurangi jumlah main
-        stGame.innerHTML = a;  // menampilkan sisa token
+        stGame.innerHTML = a;  // munculkan token
         return token() + acak();        
     } else {
         alert("Token anda sudah habis :(");  // menampilkan jika token main sudah habis
